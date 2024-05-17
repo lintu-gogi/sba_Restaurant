@@ -1,6 +1,7 @@
 body{
     width: 100%;
     background-color: brown;
+    padding: 10px;
 }
 h1{
     text-align: center;
@@ -9,3 +10,28 @@ h1{
 #headerId{
     background-color: bisque;
 }
+#location_time{
+    justify-items: left;
+}
+#label_Id{
+    width:240px;
+    display: inline-block;
+}
+#headerId {
+    background-color: bisque;
+    transition-property: background-color;
+    transition-duration: 2s;
+ }
+ #headerId:hover {
+    background-color:darkgoldenrod;
+ }
+ #img_Id {
+    border-radius: 0%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+  
+  #img_Id:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }

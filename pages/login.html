@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <!-- <script defer src="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script> -->
+        <link rel="stylesheet" href="../styles/res_Css.css">
+    </head>
+
+<body>
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" >Login Home</a>
+          
+        </div>
+    </nav>
+    <div class="container-fluid">           
+        <div class="row"style="border: 1px solid black; background-color: beige;">
+            <h5 style="text-align: left;">
+                Login
+            </h5>
+        </div>
+        <div class="row" style="border: 1px solid black; background-color: beige;">
+            <form  action="process.php" method="post">
+                <br>
+                <p> User Name<br>
+                        <input name ="text" type="text" placeholder="Enter Name">
+                </p>  
+                
+                 <p >Password<br>
+
+                        <input type="password" placeholder="Enter Password" >
+                 </p>
+
+                <p>Email Id<br>
+                    <input type="email" placeholder="Enter Email" >
+                </p>  
+                <p> Phone<br>
+                    <input type="number" placeholder="Enter Phone">
+                </p>  
+                
+                    <button type="button" class="btn btn-dark" id="liveAlertBtn">Login</button>
+                <!-- <p> Pay
+                    <input type="submit" >
+                </p>    -->
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
