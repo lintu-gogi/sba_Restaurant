@@ -1,0 +1,11 @@
+body{
+    width: 100%;
+    background-color: brown;
+}
+h1{
+    text-align: center;
+    /* background-color: bisque; */
+}
+#headerId{
+    background-color: bisque;
+}
